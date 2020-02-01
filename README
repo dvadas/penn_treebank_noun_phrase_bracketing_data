@@ -1,0 +1,10 @@
+Files:
+	run_insert - Shell script that loops over the 24 sections, running insertor.py for each one
+	insertor.py - Python script to insert the structure for a section
+	structure/ - Folder with the structure to insert, one file per section
+
+Running:
+	$ ./run_insert <source directory> <output directory>
+
+	The source directory is where the original Penn Treebank is stored.
+	e.g. /corpora/TreeBank3/parsed/mrg/wsj/
